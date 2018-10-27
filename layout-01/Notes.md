@@ -12,3 +12,5 @@ margin: 0 auto; --> Content centered
 
 Be careful with Font Family: they could be heavy
 
+em ---> relative respect to parent (0.8 em aprproximately os the 80% of base line, if a child has another 0.8 em, then this element will have the 80% of the         80 % of base line)
+rem --> relative respect root
