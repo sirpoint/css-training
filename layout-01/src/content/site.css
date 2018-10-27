@@ -1,8 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
 body {  
-    font-size: 80%;
+    /* font-size: 80%; */
     font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 0.5em;
 }
 
 a {
@@ -15,17 +19,9 @@ a:hover {
 }
 
 p {
-    font-size: 1.0em;
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
-    width: 50%;
+    background-color: green;
 }
 
-div {
-    width: 50%;
+p {
+    background-color: gray;
 }
-
-
-
-
