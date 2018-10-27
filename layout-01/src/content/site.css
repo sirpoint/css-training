@@ -2,26 +2,32 @@
 
 body {  
     /* font-size: 80%; */
-    font-family: 'Raleway', sans-serif;
+    font-family: monospace;
+    font-size: 3rem;
 }
 
-h1 {
-    font-size: 0.5em;
+* { /*000*/
+    color: deeppink;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+p { /*001*/
+    color: white;
 }
 
-a:hover {
+div p { /*002*/
+    color: darkblue;
+}
+
+.red { /*010*/
+    color: red;
+}
+
+#lemoncode { /*100*/
     color: greenyellow;
 }
 
-p {
-    background-color: green;
-}
-
-p {
-    background-color: gray;
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightslategray;
 }
